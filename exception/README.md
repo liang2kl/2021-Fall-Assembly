@@ -7,23 +7,18 @@
 ADEL：
 
 - EPC：`0x400024`
-
 - Cause：`0x10`
-
 - Status：`0x3000ff12`
 
 ADES：
 
 - EPC：`0x400028`
-
 - Cause：`0x14`
-
 - Status：`0x3000ff13`
 
 Arithemic overflow：
 
 - EPC：`0x400034` 为返回地址
-
 - Cause：`0x30`
   
   二进制表示为 `0110000`
@@ -35,9 +30,6 @@ Arithemic overflow：
   二进制表示为 `110000000000001111111100010011`
   
   - interrupt enable 为 1，中断处理开启
-  
   - exception level 为 1，屏蔽了接下来的中断处理
-  
   - user mode 为 0
-  
   - interrupt mask 全为 1，所有中断均开启
