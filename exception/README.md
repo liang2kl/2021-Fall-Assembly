@@ -40,4 +40,4 @@ Arithemic overflow：
   
   - user mode 为 0
   
-  - interrupt mask 全为 0，所有中断均开启
+  - interrupt mask 全为 1，所有中断均开启
